@@ -1,4 +1,4 @@
-# Juan-Villano.github.io
+
 
 # Acerca de mí
 
@@ -114,3 +114,48 @@ Visualización de la distribución de características clave, como minutos de ll
 ![relaciones entre variables](/assets/img/p02_relaciones_variables.png)
 
 **Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Megaline).**
+
+
+## Predicción de deserción de clientes para Beta Bank
+La retención de clientes es crucial para Beta Bank, ya que es más rentable retener a los clientes existentes que captar nuevos. Este proyecto tiene como objetivo desarrollar un modelo de clasificación que prediga la probabilidad de que un cliente abandone el banco, permitiendo la implementación de estrategias de retención personalizadas y proactivas.
+
+#### Herramientas y tipo de proyecto
+![Python](https://img.shields.io/badge/python-357ebd?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23357ebd.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-357ebd?style=for-the-badge)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23357ebd.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Limpieza de datos](https://img.shields.io/badge/Limpieza_de_datos-295F98?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-357ebd?style=for-the-badge)
+![Transformación de datos](https://img.shields.io/badge/Transformación_de_datos-295F98?style=for-the-badge)
+![Análisis de datos](https://img.shields.io/badge/Análisis_de_datos-295F98?style=for-the-badge)
+![Modelos de predicción](https://img.shields.io/badge/Modelos_de_predicción-295F98?style=for-the-badge)
+
+### Preguntas clave
+1. ¿Qué factores influyen en la deserción de clientes?
+2. ¿Qué modelo de clasificación ofrece el mejor rendimiento para predecir la deserción?
+3. ¿Cómo se pueden optimizar las métricas de evaluación (F1 Score, AUC-ROC) para garantizar una clasificación precisa?
+
+### Metodología
+- Limpieza de datos: Imputación de valores faltantes en la columna Tenure utilizando la mediana, eliminación de columnas irrelevantes y codificación de variables categóricas.
+- Análisis exploratorio de datos (EDA): Identificación de patrones en las características de los clientes, como edad, saldo y número de productos.
+- Modelado y evaluacion del mismo: Entrenamiento de modelos como Regresión Logística, Árbol de Decisión y Bosque Aleatorio. Se realizo el juste de hiperparámetros y selección del mejor modelo basado en métricas como AUC-ROC, F1 Score.
+
+### Conclusiones y recomendaciones
+- Bosque Aleatorio: Logró un AUC-ROC de 0.86 y un F1 Score de 0.71, superando a otros modelos como Regresión Logística y Árbol de Decisión.
+
+- Implementación del modelo: Utilizar el Bosque Aleatorio como sistema de predicción para identificar clientes en riesgo de deserción.
+
+- Estrategias de retención: Ofrecer promociones personalizadas y atención al cliente dedicada para los clientes identificados como de alto riesgo.
+
+
+- Seguimiento continuo: Monitorear el rendimiento del modelo y actualizarlo periódicamente con nuevos datos para mantener su efectividad.
+
+### Visualizaciones destacadas
+
+1. **Matriz de correlaciones::** Se identificó una baja correlación entre las variables numéricas y la deserción, lo que sugiere la necesidad de modelos no lineales como el Bosque Aleatorio.
+![correlacion Betabank](/assets/img/p03_corr_betabank.png)
+2. **Relacion entre número de productos y deserción**  Es fundamental segmentar a los clientes en función del número de productos que tienen y adaptar las estrategias de retención a cada grupo, ofrecer productos, servicios y promociones personalizadas según las necesidades y expectativas de cada grupo.
+![relaciones entre productos y deserción](/assets/img/p03_relacion _productos_desercion.png)
+
+**Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Beta_Bank).**
+
