@@ -68,7 +68,7 @@ Se realizo el ajuste de hiperparámetros y selección del mejor modelo basado en
 2. **Importancia de caracteristicas** Se muestra la caracteristicas mas importantes para la determinación de cancelación. 
 ![importancia de caracteristicas](/assets/img/p01_importancia_caracteristicas.png)
 
-**Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Interconnect).**
+**Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Interconnect/blob/main/PROYECTO_INTERCONNECT.ipynb).**
 
 
 ## Predicción de planes para Megaline
@@ -113,7 +113,7 @@ Visualización de la distribución de características clave, como minutos de ll
 2. **Relacion entre llamadas, mensajes, minutos y mb** En este caso, confirmamos la fuerte relación entre calls y minutes, la ausencia de relaciones lineales claras entre otras variables, y la falta de una separación evidente entre los planes en función de las variables individualmente.  
 ![relaciones entre variables](/assets/img/p02_relaciones_variables.png)
 
-**Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Megaline).**
+**Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Megaline/blob/main/PROYECTO_MEGALINE.ipynb).**
 
 
 ## Predicción de deserción de clientes para Beta Bank
@@ -157,5 +157,5 @@ La retención de clientes es crucial para Beta Bank, ya que es más rentable ret
 2. **Relacion entre número de productos y deserción**  Es fundamental segmentar a los clientes en función del número de productos que tienen y adaptar las estrategias de retención a cada grupo, ofrecer productos, servicios y promociones personalizadas según las necesidades y expectativas de cada grupo.
 ![relaciones entre productos y deserción](/assets/img/p03_relacion _productos_desercion.png)
 
-**Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Beta_Bank).**
+**Explora más detalles del proyecto en: [repositorio completo](https://github.com/Juan-Villano/Proyecto_Beta_Bank/blob/main/BETA_BANK.ipynb).**
 
